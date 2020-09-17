@@ -1,5 +1,5 @@
 require 'spec_helper'
-
+require 'pry'
 mixed_data_1 = [
   ["The", 4, "quick"],
   [-1, "brown", "fox", 30],
