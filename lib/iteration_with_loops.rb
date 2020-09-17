@@ -12,7 +12,7 @@ def join_nested_strings(src)
   # Traverse arrays
   while row < src.length do
     while column < src[row].length do
-      test_count += 
+      test_count += 1
       if src[row][column].is_a?(String)
         results << src[row][column]
       end
