@@ -14,7 +14,7 @@ def join_nested_strings(src)
       if src[row][column].is_a?(String)
         results << src[row][column]
       end
-      Column += 1
+      column += 1
     end
     row += 1
   end
